@@ -12,6 +12,7 @@ import { AuthModule } from './auth/auth.module';
     MongooseModule.forRoot('mongodb://localhost:27017/appazon'),
     ProductModule,
     UserModule,
+    //test
     AuthModule,
   ],
   controllers: [AppController],
